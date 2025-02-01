@@ -1,0 +1,86 @@
+body{
+    background: #1b1b1b;
+    margin: 0;
+    /* font-family: 'Outfit'; */
+}
+
+li{
+    list-style-type: none;
+}
+
+.slick-slide {
+    padding: 0 10px !important; /* Adjust the padding to create space between slides */
+}
+  
+li::marker {
+    color: #f5b754;
+    font-size: 20px;
+  }
+
+.footer-a {
+  color: rgba(255, 255, 255, 0.8); /* Default color */
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  color: #f5b754; /* Hover color */
+}
+  
+.sec10-container{
+  max-width: 1500px !important ;
+  padding: 0 100px !important ;
+}
+
+.loginBtn:hover {
+  color: #f5b754 !important;
+}
+
+/* Rent now form */
+
+.form-input{
+  max-width: 90%;
+    padding: 18.5px 23px;
+    height: auto;
+    background-color: #222;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    line-height: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+    background-image: none;
+    border: none;
+    border-radius: 30px;
+}
+
+
+textarea.form-input {
+  resize: none; /* Prevent resize */
+  padding: 20px 23px; /* Match input padding */
+}
+
+select.form-input {
+  padding: 20px 30px; /* Match input padding */
+  appearance: none; /* Hide default dropdown styling */
+  -webkit-appearance: none; /* Safari */
+  -moz-appearance: none; /* Firefox */
+  background-color: #222; /* Match other inputs */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 12px; /* Arrow size */
+  width: 100%;
+}
+
+input[type="date"].form-input {
+  color-scheme: dark; /* Ensures proper color for calendar icon */
+}
+
+.form-input:focus {
+  outline: none; /* Ensures no focus outline */
+  box-shadow: none; /* Removes any shadow effects */
+  border: none; /* Removes any border */
+}
